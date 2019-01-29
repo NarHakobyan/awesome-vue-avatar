@@ -1,4 +1,4 @@
-# awesome-vue-avatar-v2
+# awesome-vue-avatar
 
 ## Project setup
 ```

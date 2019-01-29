@@ -1,5 +1,5 @@
 {
-  "name": "awesome-vue-avatar-v2",
+  "name": "awesome-vue-avatar",
   "version": "0.1.0",
   "private": true,
   "main": "dist/awesome-vue-avatar.common.js",
