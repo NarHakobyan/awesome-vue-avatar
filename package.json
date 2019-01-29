@@ -2,10 +2,10 @@
   "name": "awesome-vue-avatar-v2",
   "version": "0.1.0",
   "private": true,
-  "main": "src/index.js",
+  "main": "dist/awesome-vue-avatar.common.js",
   "scripts": {
     "serve": "vue-cli-service serve",
-    "build": "vue-cli-service build",
+    "build": "vue-cli-service build --target lib --name awesome-vue-avatar ./src/index.js",
     "lint": "vue-cli-service lint"
   },
   "dependencies": {
@@ -34,5 +34,12 @@
       "vue-cli-service lint",
       "git add"
     ]
-  }
+  },
+  "files": [
+    "dist/*",
+    "src/*",
+    "public/*",
+    "*.json",
+    "*.js"
+  ]
 }
