@@ -82,10 +82,12 @@
         },
         computed: {
             canvasWidth() {
-                return this.getDimensions().canvas.width;
+                const { canvas } = this.getDimensions();
+                return canvas.width;
             },
             canvasHeight() {
-                return this.getDimensions().canvas.height;
+                const { canvas } = this.getDimensions();
+                return canvas.height;
             },
             rotationRadian() {
                 return this.rotation * Math.PI / 180;
